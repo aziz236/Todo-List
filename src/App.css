@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+.Todo-placement{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Todo-input{
+    position: absolute;
+    margin-bottom: -25px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.delete-button{
+  
+    background-color:rgb(75, 87, 75);
+    color: white;
+    
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.TODOS{
+    border:1px solid rgb(92, 102, 76);
+    width: 250px;
+    display: flex;
+    align-items: center;
+   flex-direction: column;
+    margin-top: 30px;
+    background-color: rgba(51, 51, 51, 0.582);
 }
-
-.App-link {
-  color: #61dafb;
+.todos-phrases{
+    margin-top: 5px;
+    color: rgb(59, 56, 49);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.write-your-input{
+width: 200px;
+height: 30px;
+margin-left: 40px;
+background-color: rgba(51, 51, 51, 0.582);
+color: rgb(59, 56, 49);
+}
+.Add-button{
+width: 56px;
+height: 36px;
+background-color: rgba(51, 51, 51, 0.582);
+margin-left: 2px;
+}
+.note{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+    border: solid black;
+    width: 1220px;
+    height: 60px;
+    margin-left: 72px;
 }
