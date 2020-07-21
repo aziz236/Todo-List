@@ -19,7 +19,7 @@ setTodos(deleteList)
     return(
         <div>
         <div>
-            <p className="note">PS: If you want to edit your todo you can click on it and change it </p>
+            <p className="note">PS: If you want to edit your Task you can click on it and change it </p>
         </div>
         <div className="Todo-placement" >
             
@@ -27,7 +27,7 @@ setTodos(deleteList)
               {todos.map(todo => {
                   return (
                       <div className="TODOS">
-                       <p  contenteditable="true" className="todos-phrases" key={todo.id}>{todo.title}</p>
+                       <p contenteditable="true" id="textarea" className="todos-phrases" key={todo.id}>{todo.title}</p>
                        <button type="button" className="delete-button" onClick={() =>handleRemove(todo.id)}>delete</button> 
                        
                      

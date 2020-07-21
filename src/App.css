@@ -2,50 +2,67 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-   
 }
+
 .Todo-input{
     position: absolute;
     margin-bottom: -25px;
 }
+
 .delete-button{
-  
-    background-color:rgb(75, 87, 75);
+    background-color:rgb(141, 58, 79);
     color: white;
-    
 }
+
 .TODOS{
     border:1px solid rgb(92, 102, 76);
     width: 250px;
     display: flex;
     align-items: center;
-   flex-direction: column;
+    flex-direction: column;
     margin-top: 30px;
-    background-color: rgba(51, 51, 51, 0.582);
+    background-color: rgba(255, 0, 0, 0.582);
 }
+
 .todos-phrases{
     margin-top: 5px;
-    color: rgb(59, 56, 49);
+    color: rgb(255, 255, 255);
+    text-align: center;
 }
+
 .write-your-input{
-width: 200px;
-height: 30px;
-margin-left: 40px;
-background-color: rgba(51, 51, 51, 0.582);
-color: rgb(59, 56, 49);
+    width: 200px;
+    height: 30px;
+    margin-left: 40px;
+    background-color: rgba(255, 0, 0, 0.582);
+    color: rgb(255, 255, 255);
 }
+
+.write-your-input::placeholder{
+    color: white;
+}
+
 .Add-button{
-width: 56px;
-height: 36px;
-background-color: rgba(51, 51, 51, 0.582);
-margin-left: 2px;
+    width: 56px;
+    height: 36px;
+    background-color: rgba(255, 0, 0, 0.582);
+    margin-left: 2px;
 }
+
 .note{
     text-align: center;
-    color: red;
+    color: black;
     font-size: 40px;
     border: solid black;
     width: 1220px;
     height: 60px;
     margin-left: 72px;
+    background-color: rgb(84, 160, 160);
+}
+
+#textarea {
+    min-width: 100px;
+    max-width: 250px;
+    word-break: break-all;
+    cursor: text;
 }
